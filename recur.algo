@@ -1,0 +1,28 @@
+5!=5*4*3*2*1
+
+5!=5*4!
+=5*4*3!
+n!=n*(n-1)!
+FUNCTION fact(n) : INTEGER
+VAR
+    rslt:INTEGER
+BEGIN
+     if(n=0)then
+     reslt:=1
+
+     ELSE
+       rslt:=n* fact(n-1)
+     END_IF
+    RETURN rslt ;
+END
+FUNCTION palindrome(m:STRING,start,end:INTEGER) : BOOLEAN
+VAR
+    
+BEGIN
+    IF (m.length<= 1) THEN
+        set_instructions
+   else if(m[start]=m[end])
+   return palindrome(m,start+1,end-1)
+    END_IF
+    RETURN value ;
+END
